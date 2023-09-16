@@ -41,7 +41,7 @@
 }
 
 .main-container {
-  
+
   padding: 1.5rem;
   border-radius: 1.5rem;
   background-image: linear-gradient(hsl(211, 19%, 23%), hsl(214, 13%, 11%));
@@ -53,12 +53,14 @@
   margin-right: 25rem;
 
 }
-@media  only screen and (max-width:1061px) {
-  .main-container{
+
+@media only screen and (max-width:1061px) {
+  .main-container {
     margin-left: 1rem;
     margin-right: 1rem;
   }
 }
+
 .icon {
   height: 1rem;
   padding: .5rem;
@@ -77,13 +79,15 @@ p {
 
 
 }
-.heading2{
+
+.heading2 {
   color: hsl(25, 97%, 53%);
   padding: .3rem;
   border-radius: 30px;
   background-color: #333b45;
   text-align: center;
 }
+
 ul {
   display: flex;
   flex-direction: row;
@@ -93,9 +97,13 @@ ul {
   align-items: center;
   margin-bottom: 2rem;
 }
-ul li{margin-bottom: 0.23rem;}
+
+ul li {
+  margin-bottom: 0.23rem;
+}
+
 ul li button {
-  
+
   color: white;
   border-radius: 50%;
   height: 3rem;
@@ -128,7 +136,8 @@ ul li button:focus {
   cursor: pointer;
   transition: 0.3s;
 }
-.sub-btn:hover{
+
+.sub-btn:hover {
   background-color: white;
-color: hsl(25, 97%, 53%);
+  color: hsl(25, 97%, 53%);
 }
