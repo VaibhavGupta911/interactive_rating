@@ -1,3 +1,21 @@
+# Interactive Rating Component
+
+A responsive React component with useContext and useState for state management, designed for interactive user ratings and feedback. It offers customization options and adapts seamlessly to different screen sizes.
+
+# Features:
+
+Interactive user ratings.
+State management using useContext and useState.
+Customizable appearance and behavior.
+Responsive design for various screens.
+Usage:
+
+# Clone the repository or integrate into your React app.
+Customize the rating scale, style, and behavior.
+Utilize context and state management.
+Ensure responsiveness with CSS media queries.
+Enhance user engagement and feedback collection effortlessly with the Interactive Rating Component. Contributions and feedback are welcome for further improvements.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

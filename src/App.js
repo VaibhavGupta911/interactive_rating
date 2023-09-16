@@ -1,17 +1,19 @@
 
-import { createContext, useState } from 'react';
+import {  useState } from 'react';
 import './App.css';
 import Card1 from './Card1';
 import Card2 from './Card2';
 import Acontext from './Acontext';
 function App() {
   const [toggle, setToggle] = useState(true);
-  const toggleChange = () => { setToggle((e) => !e) }
-  const [rating,setRating]=useState();
-  const ratingchange=(e)=>{setRating(e)}
+  const toggleChange = () => { setToggle((e) => !e) };
+  const [rating, setRating] = useState("Not Selected");
+  function ratingchange(target){
+    setRating(target)
+  }
   return (
     <>
-      <Acontext.Provider value={{ status: toggle, togglechange: toggleChange ,rating:rating,ratingchange:ratingchange}}>
+      <Acontext.Provider value={{ status: toggle, togglechange: toggleChange, rating: rating, ratingchange: ratingchange }}>
         <div className='app'>
           {toggle ? <Card1 /> : <Card2 />}
         </div>
