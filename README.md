@@ -4,17 +4,17 @@ A responsive React component with useContext and useState for state management, 
 
 # Features:
 
-Interactive user ratings.
-State management using useContext and useState.
-Customizable appearance and behavior.
-Responsive design for various screens.
-Usage:
+Interactive user ratings..\</br>
+State management using useContext and useState. .\</br>
+Customizable appearance and behavior. .\</br>
+Responsive design for various screens. .\</br>
+# Usage:
 
-# Clone the repository or integrate into your React app.
-Customize the rating scale, style, and behavior.
-Utilize context and state management.
-Ensure responsiveness with CSS media queries.
-Enhance user engagement and feedback collection effortlessly with the Interactive Rating Component. Contributions and feedback are welcome for further improvements.
+Clone the repository or integrate into your React app. .\</br>
+Customize the rating scale, style, and behavior. .\</br>
+Utilize context and state management. .\ </br>
+Ensure responsiveness with CSS media queries. .\</br>
+Enhance user engagement and feedback collection effortlessly with the Interactive Rating Component. .\ </br> Contributions and feedback are welcome for further improvements. .\</br>
 
 # Getting Started with Create React App
 
