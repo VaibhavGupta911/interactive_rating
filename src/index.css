@@ -49,9 +49,16 @@
   flex-direction: column;
   margin-top: 20vh;
   margin-bottom: 20vh;
+  margin-left: 25rem;
+  margin-right: 25rem;
 
 }
-
+@media  only screen and (max-width:786px) {
+  .main-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
 .icon {
   height: 1rem;
   padding: .5rem;
