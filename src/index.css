@@ -1,13 +1,126 @@
-body {
+/*
+### Primary
+
+- Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+- Weights: 400, 700
+*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600;700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+  list-style: none;
+  text-decoration: none;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.app {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+  min-height: 100vh;
+}
+
+.main-container {
+  
+  padding: 1.5rem;
+  border-radius: 0.625rem;
+  background-image: linear-gradient(hsl(211, 19%, 23%), hsl(214, 13%, 11%));
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+
+}
+
+.icon {
+  height: 1rem;
+  padding: .5rem;
+  border-radius: 50%;
+  background-color: #333b45;
+}
+
+.heading {
+  color: white;
+  margin: 2rem 0 1rem;
+}
+
+p {
+  line-height: 1.8;
+  color: hsl(217, 12%, 63%);
+
+
+}
+.heading2{
+  color: hsl(25, 97%, 53%);
+  padding: .3rem;
+  border-radius: 30px;
+  background-color: #333b45;
+  text-align: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+ul li button {
+  color: white;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  background-color: hsl(213, 19%, 18%);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+ul li button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+ul li button:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.sub-btn {
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  width: 100%;
+  padding: 0.5rem 0 0.4rem;
+  border-radius: 30px;
+  border: none;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.sub-btn:hover{
+  background-color: white;
+color: hsl(25, 97%, 53%);
 }

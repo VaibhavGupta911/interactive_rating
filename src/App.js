@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
+import { createContext, useState } from 'react';
+import './App.css';
+import Card1 from './Card1';
+import Card2 from './Card2';
+import Acontext from './Acontext';
 function App() {
+  const [toggle, setToggle] = useState(true);
+  const toggleChange = () => { setToggle((e) => !e) }
+  const [rating,setRating]=useState();
+  const ratingchange=(e)=>{setRating(e)}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Acontext.Provider value={{ status: toggle, togglechange: toggleChange ,rating:rating,ratingchange:ratingchange}}>
+        <div className='app'>
+          {toggle ? <Card1 /> : <Card2 />}
+        </div>
+      </Acontext.Provider>
+    </>
   );
 }
 
