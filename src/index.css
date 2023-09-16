@@ -43,7 +43,7 @@
 .main-container {
   
   padding: 1.5rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   background-image: linear-gradient(hsl(211, 19%, 23%), hsl(214, 13%, 11%));
   display: flex;
   flex-direction: column;
@@ -53,7 +53,7 @@
   margin-right: 25rem;
 
 }
-@media  only screen and (max-width:786px) {
+@media  only screen and (max-width:1061px) {
   .main-container{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -93,8 +93,9 @@ ul {
   align-items: center;
   margin-bottom: 2rem;
 }
-
+ul li{margin-bottom: 0.23rem;}
 ul li button {
+  
   color: white;
   border-radius: 50%;
   height: 3rem;
